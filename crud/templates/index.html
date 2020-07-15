@@ -1,0 +1,431 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>CV - Suraj Sanjeev Pawar</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	
+	
+	<!-- Font -->
+	
+	<link href="{% static 'https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura' %}" rel="stylesheet">
+	
+	<!-- Stylesheets -->
+	
+	<link href="{% static 'common-css/bootstrap.css' %}" rel="stylesheet">
+	
+	<link href="{% static 'common-css/ionicons.css' %}" rel="stylesheet">
+	
+	<link href="{% static 'common-css/fluidbox.min.css' %}" rel="stylesheet">
+	
+	<link href="{% static '01-cv-portfolio/css/styles.css' %}" rel="stylesheet">
+	
+	<link href="{% static '01-cv-portfolio/css/responsive.css' %}" rel="stylesheet">
+	
+</head>
+<body>
+	
+	<header>
+		<div class="container">
+			<div class="heading-wrapper">
+				<div class="row">
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="info">
+							<i class="icon ion-ios-location-outline"></i>
+							<div class="right-area">
+								<h5>H NO 1823/1 SAMATANAGAR RAJGURUNAGAR</h5>
+								<h5>PUNE,410505</h5>
+							</div><!-- right-area -->
+						</div><!-- info -->
+					</div><!-- col-sm-4 -->
+					
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="info">
+							<i class="icon ion-ios-telephone-outline"></i>
+							<div class="right-area">
+								<h5>9373798616</h5>
+								<h6>MIN - FRI,8AM - 7PM</h6>
+							</div><!-- right-area -->
+						</div><!-- info -->
+					</div><!-- col-sm-4 -->
+					
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="info">
+							<i class="icon ion-ios-chatboxes-outline"></i>
+							<div class="right-area">
+								<h5>pawarsuraj614@gmail.com</h5>
+								<h6>REPLY IN 24 HOURS</h6>
+							</div><!-- right-area -->
+						</div><!-- info -->
+					</div><!-- col-sm-4 -->
+				</div><!-- row -->
+			</div><!-- heading-wrapper -->
+			
+			
+			
+			
+			<a class="downlad-btn" href="#">Download CV</a>
+		</div><!-- container -->
+	</header>
+
+  <div class="topnav">
+    <a class="active" href="/Home/">Home</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="/About/">About</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="/Technology/">Technology</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  </div>
+  
+  <section class="intro-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1 col-lg-2"></div>
+				<div class="col-md-10 col-lg-8">
+					<div class="intro">
+						<div class="profile-img"><img src="{% static 'images/profile-1-250x2500.jpg' %}" alt=""></div>
+						<h2><b>Suraj Sanjeev Pawar</b></h2>
+						<h4 class="font-yellow">I Completed my Engineering from SPPU University </h4>
+			            <h4 class="font-yellow">Electronics and Telecommunication </h4>
+		
+						<ul class="information margin-tb-30">
+							<li><b>BORN : </b>November 15, 1997</li>
+							<li><b>EMAIL : </b><a href="mailto:pawarsuraj614@gmail.com" target="_blank"><p id="email">pawarsuraj614@gmail.com</p></a></li>
+						
+					
+						</ul>
+						<ul class="social-icons">
+							<li><a href="#"><i class="ion-social-pinterest"></i></a></li>
+							<li><a href="#"><i class="ion-social-linkedin"></i></a></li>
+							<li><a href="#"><i class="ion-social-instagram"></i></a></li>
+							<li><a href="#"><i class="ion-social-facebook"></i></a></li>
+							<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+						</ul>
+					</div><!-- intro -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- intro-section -->
+	
+    <br><br>
+	<section class="quoto-section center-text">
+		<div class="container"><center>
+			<div class="row">
+				<div class="col-sm-12">
+					<h3 class="font-yellow"><b>Don’t be intimidated by what you don’t know.</b></h3>
+					<h3><b>That can be your greatest strength and<span class="font-yellow"> Hard work </span>,
+					ensure that you do things differently from everyone else.</b></h3>
+				</div><!-- col-sm-12 -->
+			</div><!-- row -->
+		</center></div><!-- container -->
+	</section><!-- quoto-section -->
+  
+
+	<section class="portfolio-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Portfolio</b></h3>
+						<h6 class="font-lite-black"><b>MY WORK</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+					<div class="portfolioFilter clearfix margin-b-80">
+						<a href="#" data-filter="*" class="current"><b>ALL</b></a>
+						<a href="#" data-filter=".web-design"><b>WEB DESIGN</b></a>
+						<a href="#" data-filter=".branding"><b>SCRATCH </b></a>
+						<a href="#" data-filter=".graphic-design"><b>PYTHON </b></a>
+					</div><!-- portfolioFilter -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		
+		<div class="portfolioContainer">
+			
+			<div class="p-item web-design">
+				<a href="{% static 'images/portfolio-1-600x4000.jpg' %}" data-fluidbox>
+					<img src="{% static 'images/portfolio-1-600x4000.jpg' %}" alt=""></a>
+			</div><!-- p-item -->
+			
+			<div class="p-item branding graphic-design">
+				<a href="{% static 'images/portfolio-7-600x8000.jpg' %}" data-fluidbox>
+					<img src="{% static 'images/portfolio-7-600x8000.jpg' %}" alt=""></a>
+			</div><!-- p-item -->
+			
+			<div class="p-item web-design">
+				<a href="{% static 'images/portfolio-2-600x4000.jpg' %}" data-fluidbox>
+					<img src="{% static 'images/portfolio-2-600x4000.jpg' %}" alt=""></a>
+			</div><!-- p-item -->
+			
+			<div class="p-item p-item-2 graphic-design">
+				<a class="img" href="{% static 'images/portfolio-8-300x4000.jpg' %}" data-fluidbox>
+					<img src="{% static 'images/portfolio-8-300x4000.jpg' %}" alt=""></a>
+				<a class="img" href="{% static 'images/portfolio-9-300x4000.jpg' %}" data-fluidbox>
+					<img src="{% static 'images/portfolio-9-300x4000.jpg' %}" alt=""></a>
+			</div><!-- p-item -->
+			
+			<div class="p-item branding graphic-design">
+				<a href="{% static 'images/portfolio-3-600x4000.jpg' %}" data-fluidbox>
+					<img src="{% static 'images/portfolio-3-600x4000.jpg' %}" alt=""></a>
+			</div><!-- p-item -->
+			
+			<div class="p-item graphic-design web-design">
+				<a href="{% static 'images/portfolio-4-600x4000.jpg' %}" data-fluidbox>
+					<img src="{% static 'images/portfolio-4-600x4000.jpg' %}" alt=""></a>
+			</div><!-- p-item -->
+			
+			<div class="p-item  graphic-design branding">
+				<a href="{% static 'images/portfolio-5-600x8000.jpg' %}" data-fluidbox>
+					<img src="{% static 'images/portfolio-5-600x8000.jpg' %}" alt=""></a>
+			</div><!-- p-item -->
+				
+			<div class="p-item web-design branding">
+				<a href="{% static 'images/portfolio-6-600x8000.jpg' %}" data-fluidbox>
+					<img src="{% static 'images/portfolio-6-600x8000.jpg' %}" alt=""></a>
+			</div><!-- p-item -->
+
+			<div class="p-item p-item-2 graphic-design">
+				<a class="img" href="{% static 'images/portfolio-10-300x4000.jpg' %}" data-fluidbox>
+					<img src="{% static 'images/portfolio-10-300x4000.jpg' %}" alt=""></a>
+				<a class="img" href="{% static 'images/portfolio-11-300x4000.jpg' %}" data-fluidbox>
+					<img src="{% static 'images/portfolio-11-300x4000.jpg' %}" alt=""></a>
+			</div><!-- p-item -->
+		
+		</div><!-- portfolioContainer -->
+		
+	</section><!-- portfolio-section -->
+	
+	
+	<section class="about-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>About me</b></h3>
+						<h6 class="font-lite-black"><b></b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+					<p class="margin-b-50">I'm Suraj Pawar from Bahul born and raised in Pune.
+					I have a Bachelor's degree in Electronics and Telecommunication from Sinhgad Institute of Technology,Lonavala.
+					My strengths are my attitude that I like to take challenges that i take both success and failure in a balance manner.
+					My Hobbies are making posters and paining.
+					My greatest weakness are my love for food,but I'm trying to overcome that.
+					My short term goal is that i want a such plateform where i can grow my career along with the
+					origanisation growth and get placed in well reputed company.
+                    My long tern goal is i want to be one of the reason for the success of the organisation and give my best to them.
+
+					
+					</p>
+					
+					<div class="row">
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".97">
+									<div></div>
+									<h6 class="progress-title">HTML5 & CSS3</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+					
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".78">
+									<div></div>
+									<h6 class="progress-title">DJANGO</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+						
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".67">
+									<div></div>
+									<h6 class="progress-title">DATA BASE</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+						
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-50">
+								<div class="radial-progress" data-prog-percent=".97">
+									<div></div>
+									<h6 class="progress-title">PYTHON</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+					
+					</div><!-- row -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- about-section -->
+	
+	<section class="experience-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Courses Experience</b></h3>
+						<h6 class="font-lite-black"><b>Projects</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+				
+					<div class="experience margin-b-50">
+						<h4><b>Travello</b></h4>
+						<h5 class="font-yellow"><b>DJANGO FRAMEWORK</b></h5>
+						<h6 class="margin-t-10">MARCH 2020</h6>
+						<p class="font-semi-white margin-tb-30">“ Travello Templates ” is a versatile and highly adaptive free travel website,used
+						for Booking rooms in the different parts of a India,so that we can easily plan for our vacations in an cost effective way.
+						Hotel operations vary in size, function, complexity, and cost. Most hotels and major hospitality companies have set industry standards to classify hotel types. Hotel operations vary in size, function, complexity, and cost. Most hotels and major hospitality companies 
+						have set industry standards to classify hotel types.  </p>
+						<ul class="list margin-b-30">
+						    <li>I rarely stay in hotels because I have friends all over the world.</li>
+							<li>Hotel life is about the same in every latitude.</li>
+							<li>All good hotels tend to lead people to do things they wouldn't necessarily do at home.</li>
+						</ul>
+					</div><!-- experience -->
+					
+					<div class="experience margin-b-50">
+						<h4><b>Hooks Templates</b></h4>
+						<h5 class="font-yellow"><b>DJANGO FRAMEWORK</b></h5>
+						<h6 class="margin-t-10">JANURARY 2020</h6>
+						<p class="font-semi-white margin-tb-30">“Hooks Templates” as Francisco & Laura Wedding Templates using 
+						Djnago Web framework that encourages rapid development and clean,pragmatic design 
+						as managing Static Files (images,JavaScript,CSS or HTML) Using Visual Studio Code  </p>
+						<ul class="list margin-b-30">
+						    <li>The highest happiness on earth is the happiness of marriage.</li>
+							<li>Gravitation is not responsible for people falling in love..</li>
+							<li>Oh the heart that has truly loved never forgets, But as truly loves on to the close.</li>
+						</ul>
+					</div><!-- experience -->
+					
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		
+	</section><!-- experience-section -->
+	
+	<section class="education-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Education</b></h3>
+						<h6 class="font-lite-black"><b>ACADEMIC CAREER</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+					<div class="education-wrapper">
+						<div class="education margin-b-50">
+							<h4><b>Bachelor Degree In Electronics And Telecommunication</b></h4>
+							<h5 class="font-yellow"><b>Sinhgad Institution OF Technology,Lonavala</b></h5>
+							<h6 class="font-lite-black margin-t-10">GRADUATED IN MAY 2019</h6>
+							<p class="margin-tb-30">Sinhgad Institute of Technology is an educational institute in Lonavala, 
+							India.It was established in 2004 and is a part of Sinhgad Technical Education 
+							Society, Lonavala campus.</p>
+							<p class="margin-tb-30">Nice campus tucked between 2 major cities in maharashtra state (Mumbai 
+							and Pune). You can find all kinds of crowd here, people who studied at state board 
+							schools to folks from fancy private schools of Mumbai.</p>
+						</div><!-- education -->
+						
+						<div class="education margin-b-50">
+							<h4><b> Higher Secondary Certificate (C B S E) BOARD </b></h4>
+							<h5 class="font-yellow"><b>Kendriya Vidyalaya No. 1 Dehu Road</b></h5>
+							<h6 class="font-lite-black margin-t-10">COMPLETED IN MARCH 2015</h6>
+							<p class="margin-tb-30">Founded in the year 1964, Kendriya Vidyalaya No. 1 Dehu Road is affiliated to Central 
+							Board of Secondary Education, New Delhi. It is the institution that nurtures the
+							heart, the mind and the physique of children for Enlightenment.
+							<p class="margin-tb-30">It aims to cater to the educational needs of children of transferable Central 
+							Government employees including Defence and Para-military personnel by providing 
+							a common programme of education.</p>
+                        </p>
+						</div><!-- education -->
+						
+						<div class="education margin-b-50">
+							<h4><b>Secondary School Certificate (C B S E) BOARD</b></h4>
+							<h5 class="font-yellow"><b>Kendriya Vidyalaya No. 1 Dehu Road</b></h5>
+							<h6 class="font-lite-black margin-t-10">COMPLETED IN MARCH 2013</h6>
+							<p class="margin-tb-30">It aims to cater to the educational needs of children of transferable Central 
+							Government employees including Defence and Para-military personnel by providing 
+							a common programme of education.</p>
+							<p class="margin-tb-30">School has very good infrastructure with modern amenities. All the 
+							classrooms are spacious and provide for free movement of the students and 
+							teachers.  The school has in addition a spacious multipurpose hall, Laboratory, 
+							Library, Art Room, etc.</p>
+						</div><!-- education -->
+					</div><!-- education-wrapper -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		
+	</section><!-- about-section -->
+	
+	<section class="counter-section" id="counter">
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-sm-6 col-md-6 col-lg-3">
+					<div class="counter margin-b-30">
+						<h1 class="title"><b><span class="counter-value" data-duration="400" data-count="3">0</span></b></h1>
+						<h5 class="desc"><b>Coder Degrees</b></h5>
+					</div><!-- counter -->
+				</div><!-- col-md-3-->
+				
+				<div class="col-sm-6 col-md-6 col-lg-3">
+					<div class="counter margin-b-30">
+						<h1 class="title"><b><span class="counter-value" data-duration="1400" data-count="10">0</span></b></h1>
+						<h5 class="desc"><b>Project Completed</b></h5>
+					</div><!-- counter -->
+				</div><!-- col-md-3-->
+				
+				<div class="col-sm-6 col-md-6 col-lg-3">
+					<div class="counter margin-b-30">
+						<h1 class="title"><b><span class="counter-value" data-duration="700" data-count="10">0</span></b></h1>
+						<h5 class="desc"><b>Certificates</b></h5>
+					</div><!-- counter -->
+				</div><!-- col-md-3-->
+				
+				<div class="col-sm-6 col-md-6 col-lg-3">
+					<div class="counter margin-b-30">
+						<h1 class="title"><b><span class="counter-value" data-duration="2000" data-count="20">0</span></b></h1>
+						<h5 class="desc"><b>Finished Projects</b></h5>
+					</div><!-- margin-b-30 -->
+				</div><!-- col-md-3-->
+				
+			</div><!-- row-->
+		</div><!-- container-->
+    </section><!-- counter-section-->
+	
+	
+
+	<footer>
+		<p class="copyright">
+			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ion-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Suraj Sanjeev Pawar</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+		</p>
+
+
+	</footer>
+	
+	
+	<!-- SCIPTS -->
+	
+	<script src="{% static 'common-js/jquery-3.2.1.min.js' %}"></script>
+	
+	<script src="{% static 'common-js/tether.min.js' %}"></script>
+	
+	<script src="{% static 'common-js/bootstrap.js' %}"></script>
+	
+	<script src="{% static 'common-js/isotope.pkgd.min.js' %}"></script>
+	
+	<script src="{% static 'common-js/jquery.waypoints.min.js' %}"></script>
+	
+	<script src="{% static 'common-js/progressbar.min.js' %}"></script>
+	
+	<script src="{% static 'common-js/jquery.fluidbox.min.js' %}"></script>
+	
+	<script src="{% static 'common-js/scripts.js' %}"></script>
+	
+</body>
+</html>
